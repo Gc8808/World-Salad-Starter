@@ -34,11 +34,10 @@ console.log(objPlnoun)
 
 
 
-let myStory = `One day, a ${actionVerb} ${userAge} named ${objName} decided to escape from the ${storyName}. It had been stuck in a ${areaPlace} for hours, and it was ready for some ${objNoun} action! It grabbed its trusty ${objPlace} and began to ${objNoun1} toward the ${objVerb}.
-
-Suddenly, it came across a ${objAddj} ${objCre} who warned, “You must solve the riddle of the ${objNoun3} if you want to get past me!”
-
-With a ${objAdddj} smile, ${userAge} replied, “I’ll solve it, no problem!” And just like that, the ${userAge} solved the riddle, defeated the ${objCre}, and made its way to freedom—leaving behind a trail of ${objPlnoun} as it went.
-
-`
+let myStory = `One day, a ${actionVerb} ${userAge} named ${objName} decided to escape from the ${storyName}. It had been stuck in a ${areaPlace} for hours, and it was ready for some ${objNoun} action! It grabbed its trusty ${objPlace} and began to ${objNoun1} toward the ${objVerb}.`
 document.getElementById('story').innerHTML= myStory;
+
+let myStory1 = `Suddenly, it came across a ${objAddj} ${objCre} who warned, “You must solve the riddle of the ${objNoun3} if you want to get past me!”
+
+With a ${objAdddj} smile, ${userAge} replied, “I’ll solve it, no problem!” And just like that, the ${userAge} solved the riddle, defeated the ${objCre}, and made its way to freedom—leaving behind a trail of ${objPlnoun} as it went.`
+document.getElementById('Story1').innerHTML= myStory1;

@@ -1,0 +1,36 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    text-decoration: underline;
+
+}
+.items {
+    border-radius: 15px;
+    background: #73AD21;
+    background-color: orangered;
+    width: 800px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-color: whitesmoke;
+    border: solid black;
+   
+    
+}
+
+body {
+    background-image: url(istockphoto-113145561-612x612.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+img {
+    padding-top: 20px;
+}
+
