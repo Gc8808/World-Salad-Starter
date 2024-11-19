@@ -23,14 +23,20 @@ h1 {
 }
 
 body {
+    /*Bg */
     background-image: url(istockphoto-113145561-612x612.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+
     background-size: cover;
-    
+    width: 100%; /* adjust as needed */
+    height: 500px; /* adjust as needed */
 }
 
 img {
     padding-top: 20px;
 }
-
+/*img fix */
+.Res {
+padding-left: 700px;
+padding-right: 700px;
+}
