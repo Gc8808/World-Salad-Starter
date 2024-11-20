@@ -5,8 +5,15 @@
 h1 {
     color: red;
     text-decoration: underline;
-
+    transition-duration: 2s;
 }
+
+h1:hover {
+  color: whitesmoke;
+  transition-duration: 2s;
+  transform: scale(1.2);
+}
+
 .items {
     border-radius: 15px;
     background: #73AD21;
@@ -18,10 +25,23 @@ h1 {
     margin-top: 100px;
     border-color: whitesmoke;
     border: solid black;
+    transition-duration: 2s;
+   
    
     
 }
 
+.items:hover {
+    background-color: whitesmoke;
+    transform: scale(1.2);
+    transition-duration: 2s;
+    color: red;
+}
+
+
+
+   
+    
 body {
     /*Bg */
     background-image: url(istockphoto-113145561-612x612.jpg);
@@ -46,4 +66,10 @@ img {
 .Res {
 padding-left: 700px;
 padding-right: 700px;
+transition-duration: 2s;
 }
+
+.Res:hover {
+    transform: scale(1.05);
+    transition-duration: 2s;
+    }
