@@ -73,3 +73,16 @@ transition-duration: 2s;
     transform: scale(1.05);
     transition-duration: 2s;
     }
+
+    img {
+        width: 500px;
+        height: 300px;
+        transition-duration: 2s;
+        border-color: red;
+        border-radius: 25px;
+    }
+
+    img:hover {
+        transform: scale(1.05);
+        transition-duration: 2s;
+        }
